@@ -28,12 +28,12 @@ const firebaseConfig = {
 };
 // initializeApp(firebaseConfig);
 
-// export const auth = getAuth();
+export const auth = getAuth();
 
-const auth = getAuth();
+// const auth = getAuth();
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore();
 export const storage = getStorage();
 const analytics = getAnalytics(app);
 
-export default auth;
+// export default auth;

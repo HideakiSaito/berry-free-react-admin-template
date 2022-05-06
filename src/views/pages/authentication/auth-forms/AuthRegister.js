@@ -26,11 +26,10 @@ import {
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 
-//Firebase Add
+// Firebase Add
 import { auth } from '../../../../firebase';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
-///Firebase Add
-
+// Firebase Add
 
 // project imports
 import useScriptRef from 'hooks/useScriptRef';
