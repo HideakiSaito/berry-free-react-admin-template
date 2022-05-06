@@ -26,6 +26,9 @@ import {
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 
+import { auth } from '../../../../firebase';
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
+
 // project imports
 import useScriptRef from 'hooks/useScriptRef';
 import Google from 'assets/images/icons/social-google.svg';
